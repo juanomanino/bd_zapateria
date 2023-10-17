@@ -101,7 +101,7 @@ Base de Datos de una zapateria
 
 
 15. Obtener el nombre y el precio del artículo mas barato.
-`SELECT COUNT(*) as precio FROM Articulo WHERE precio >= 50000;`
+`SELECT nombre, precio FROM Articulo ORDER BY precio LIMIT 1;`
 ![Consulta](consulta15.png "Consulta")
 
 
